@@ -45,6 +45,16 @@ Médiamétrie, créée en 1985, est une société anonyme spécialisée dans la 
 
 ---
 
+# Médiamétrie - Résumé
+
+## Les audiences télé, comment ça marche ? PDM#12
+
+![](images/mediametrie_tv_yt.jpg)
+
+https://youtu.be/O7U_1xKwKIo
+
+---
+
 # La méthode du sondage
 
 ## Le panel Médiamétrie
@@ -54,6 +64,16 @@ Médiamétrie, créée en 1985, est une société anonyme spécialisée dans la 
 - Interview régulière sur une année de 126 000 personnes (+13 ans)
 - Méthode des quotas
 - Enquêtes complémentaires sur les comportements des auditeurs
+
+---
+
+# Médiamétrie - Résumé
+
+## Les audiences radio, comment ça marche ? PDM#13
+
+![](images/mediametrie_radio_yt.jpg)
+
+https://youtu.be/pk9Dremnupw
 
 ---
 
@@ -72,21 +92,11 @@ Médiamétrie, créée en 1985, est une société anonyme spécialisée dans la 
 
 # Médiamétrie - Résumé
 
-## Les audiences télé, comment ça marche ? PDM#12
+## Audience Internet Global en France en mai
 
-![](images/mediametrie_tv_yt.jpg)
+![](images/mediametrie-web.png)
 
-https://youtu.be/O7U_1xKwKIo
-
----
-
-# Médiamétrie - Résumé
-
-## Les audiences radio, comment ça marche ? PDM#13
-
-![](images/mediametrie_radio_yt.jpg)
-
-https://youtu.be/pk9Dremnupw
+https://www.mediametrie.fr/sites/default/files/2019-06/2019%2006%2028%20CP%20Audience%20Internet%20Global%20Mai%202019.pdf
 
 ---
 
@@ -105,7 +115,7 @@ L'Audience d'un site web est l'ensemble des personnes qui visitent ce site web. 
 ## La mesure centrée-site - *site-centric*
 
 - par l'analyse de logs
-- marquage des pages par un tag HTML
+- taggage/marquage des pages 
 
 ---
 
@@ -133,7 +143,306 @@ $ cd exemples
 $ docker-compose up
 ```
 
+http://localhost:8080/
+
 ---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Analyse de logs - NGINX
+
+```
+172.24.0.1 - - [20/Aug/2019:14:59:30 +0000] 
+"GET /assets/css/font-awesome.min.css HTTP/1.1" 
+200 
+29063 
+"http://localhost:8080/" 
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+(KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" "-"
+```
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Analyse de logs - NGINX
+
+```
+$remote_addr - $remote_user - [$time_local]
+"$request" 
+$status 
+$body_bytes_sent
+"$http_referer" "$http_user_agent"
+```
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Analyse de logs - NGINX
+
+#### $remote_addr
+client address
+
+#### $remote_user
+user name supplied with the Basic authentication
+
+#### $time_local
+local time in the Common Log Format
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Analyse de logs - NGINX
+
+#### $request
+full original request line
+
+#### $status
+response status
+
+#### $body_bytes_sent
+number of bytes sent to a client, not counting the response header
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Analyse de logs - NGINX
+
+#### $http_referer
+HTTP Referer contient l'adresse de la page visitée précédente sur laquelle un lien a été suivi
+
+#### $http_user_agent
+une chaîne de caractères envoyée au serveur pour identifier l'agent utilisateur.
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### User Agent
+
+```
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+(KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+```
+**=> Chrome 76 on Windows 10**
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Outils d'analyse de logs
+
+#### AWStats
+
+AWStats is a free powerful and featureful tool that generates advanced web, streaming, ftp or mail server statistics, graphically. This log analyzer works as a CGI or from command line and shows you all possible information your log contains, in few graphical web pages.
+
+http://www.awstats.org/
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Outils d'analyse de logs
+
+#### NGINX, Elasticsearch and Kibana
+
+![](images/nginx-technical-seo-analysis.jpg)
+
+https://logz.io/blog/nginx-log-analysis/
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Taggage/marquage des pages 
+
+les technologies de marqueurs, appelés en anglais tags (on parle aussi de web beacons (en) ou de web bugs (en) qu'on peut traduire par mouchards) permettent aussi une analyse du trafic. Les marqueurs ou tags sont généralement des appels d'images invoqués par JavaScript dans le code de la page web. Ils doivent donc être soigneusement ajoutés dans chaque page à analyser.
+
+[Wikipedia](https://fr.wikipedia.org/wiki/Audience_d%27un_site_Web#La_mesure_de_fr%C3%A9quentation_par_marqueurs_Tag)
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Taggage/marquage des pages 
+
+#### Technologies
+
+- Image
+- Javascript
+- Appel API
+- Back
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Taggage/marquage des pages 
+
+#### Image
+
+```html
+<img src="//matomo.mon-domaine.fr/piwik.php?idsite=1" 
+     style="border:0;" alt="" />
+```
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Taggage/marquage des pages 
+
+#### Javascript
+
+```html
+<!-- Matomo Tag Manager -->
+<script type="text/javascript">
+    var _mtm = _mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://{$MATOMO_URL}/js/container_{$CONTAINER}.js'; s.parentNode.insertBefore(g,s);
+</script>
+<!-- End Matomo Tag Manager -->
+```
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Taggage/marquage des pages 
+
+#### API
+
+```
+http://piwik-server/piwik.php?_cvar={"1":["OS","iphone 5.0"],
+"2":["Matomo Mobile Version","1.6.2"],"3":["Locale","en::en"],
+"4":["Num Accounts","2"]}&action_name=Viewsettings
+&url=http://mobileapp.piwik.org/window/settings
+&idsite=8876&rand=351459&h=18&m=13&s=3&rec=1&apiv=1&cookie=1
+&urlref=http://iphone.mobileapp.piwik.org
+&_id=af344a398df83874 &_idvc=19&res=320×480&
+```
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Taggage/marquage des pages
+
+#### Matomo
+
+Matomo, anciennement Piwik jusqu’au début de 2018, est un logiciel libre et open source de mesure de statistiques web, successeur de PhpMyVisites et conçu pour être une alternative libre à Google Analytics. Matomo fonctionne sur des serveurs web PHP/MySQL. En juillet 2017, Matomo était utilisé par plus d'un million de sites web5 et crédité de 1,3 % de parts de marché. Matomo est aujourd'hui traduit dans 54 langues et est régulièrement mis à jour par sa communauté.
+
+[Wikipedia](https://fr.wikipedia.org/wiki/Matomo_(logiciel))
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Taggage/marquage des pages
+
+#### Google Analytics
+
+Google Analytics est un service gratuit d'analyse d'audience d'un site Web ou d'applications utilisé par plus de 10 millions de sites, soit plus de 80 % du marché mondial.
+
+[Wikipedia](https://fr.wikipedia.org/wiki/Google_Analytics)
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Capacités des outils
+
+- Collecte de données
+- Analyse et aggrégation des informations
+- Reconstruction des parcours client
+- Classification des profils
+- Suivi des campagnes publicitaires
+- Evaluation des résultats d'action marketing (interne ou externe)
+- ...
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Quelques mots de vocabulaire avant de commencer
+
+- tunnel/funnel
+- conversion
+- landing page
+- source
+- session
+- SEM
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Et quelques indicateurs
+
+- taux de transformation (*conversion rate*)
+- taux de clic (*click rate*)
+- taux de rebond (*bounce rate*)
+- coût d'acquisition client (CAC)
+- temps moyen de session (*average session duration*)
+
+---
+
+# Audience d'un site Web - *Web analytics*
+
+## La mesure centrée-site - *site-centric*
+
+### Exercice pratique 
+
+Etablir une comparaison des outils Matamo et Google Analytics sur les aspects suivants :
+- Collecte de données
+- Dashboard et diversités des outils de visualisation
+- Fonctionnalités accès e-commerce
+- SEM
+- Facteurs différenciants
+
+
+
+
 
 
 
