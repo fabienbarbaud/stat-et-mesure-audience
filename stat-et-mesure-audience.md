@@ -548,6 +548,130 @@ Trafic provenant exclusivement de campagnes marketing qui concernent la diffusio
 
 Ces campagnes sont généralement facturées au CPM ou CPC.
 
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les typologies d'acteurs
+
+- Les agences média
+- Les fournisseurs de technologie
+- Les réseaux de diffusion
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les typologies d'acteurs
+
+### Les agences média
+
+Une agence média est une agence qui conseille les annonceurs sur les stratégies et choix de media planning et qui joue un rôle de mandataire dans les procédures d’achat d’espaces publicitaires.
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les typologies d'acteurs
+
+### Les fournisseurs de technologie
+
+Sociétés spécialisées dans le développement d'innovations technologiques qui sont généralement vendues sous forme de *SaaS - Software as a Service*.
+
+Ces outils interviennent sur l'ensemble du tunnel de conversion aussi bien en amont pour s'assurer de la bonne diffussion des campagnes publictaires jusqu'à l'optimisation de la transformation sur site.
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les typologies d'acteurs
+
+### Les réseaux de diffusion
+
+Service qui regroupe autour d'une ou plusieurs thématiques, de typologies de sources de trafic et de technologie, un ensemble de sites éditeur ou services, diffusant des campagnes publicitaires.
+
+Les supports de diffusion peuvent être des tiers ou des propriétés du réseau.
+
+---
+
+### Display
+
+![](images/DgFeB4UX4AADcDC.jpg)
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les étapes pour mesurer l'efficacité d'une campagne
+
+- Définir son ou ses objectifs
+- S'assurer du bon déploiement de son plan de taggage
+- Identifier ses campagnes et ses sources
+- Sélectionner ses indicateurs
+- Préparer ses outils de reporting
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les étapes pour mesurer l'efficacité d'une campagne
+
+### Définir son ou ses objectifs
+
+- Visibilité : développement de votre notoriété par l’image de marque et de votre présence en ligne,
+- Trafic : génération de trafic,
+- Lead : génération de leads (prospects), conversion,
+- Expérience client : amélioration de l’expérience pour les consommateurs.
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les étapes pour mesurer l'efficacité d'une campagne
+
+### Le plan de taggage
+
+Le plan de taggage ou de marquage est un document décrivant l’organisation et le processus d’implémentation sur un site web des tags issus de la solution de web analytique et permettant la mesure et l’analyse d’audience d’un site web.
+
+[definitions-marketing.com](https://www.definitions-marketing.com/definition/plan-de-taggage/)
+
+---
+
+### Le plan de taggage
+
+![](images/plan-marquage-api-externe.jpg)
+
+[Du Kpi au marqueur technique de suivi d’audience](https://www.mauricelargeron.com/du-kpi-au-marqueur-de-suivi-daudience/)
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les étapes pour mesurer l'efficacité d'une campagne
+
+### Sélectionner ses indicateurs
+
+Les *KPI* (*Key Performance Indicators* ou indicateurs clés de performance en français) vous aideront à mesurer efficacement les performances. Il s’agit par exemple :
+
+- du taux de trafic généré sur votre site web,
+- du taux de conversion,
+- du temps passé sur votre site,
+- du ROI (retour sur investissement).
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Mise en pratique
+
+Pour la mise en place d'une campagne de communication digitale, présenter les différentes étapes de la mise en place d'une solution de mesure d'audience :
+
+1. Définir l'objectif de la campagne
+2. Présenter son plan de taggage
+3. Sélectionner les sources de trafic et justifier leur adéquation avec l'objectif
+4. Présenter les *KPI* et définir l'interprétation que vous pouvez en faire.
+
+
 
 
 
