@@ -433,14 +433,120 @@ Google Analytics est un service gratuit d'analyse d'audience d'un site Web ou d'
 
 ### Exercice pratique 
 
-Etablir une comparaison des outils Matamo et Google Analytics sur les aspects suivants :
+Etablir une comparaison des outils Matomo et Google Analytics sur les aspects suivants :
 - Collecte de données
 - Dashboard et diversités des outils de visualisation
 - Fonctionnalités accès e-commerce
 - SEM
 - Facteurs différenciants
 
+---
 
+# La mesure d'audience dans une campagne de communication digitale
+
+![](images/croissance-video.png)
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les différentes sources de trafic
+
+- Direct
+- Liens sur sites référents
+- Réseaux sociaux
+- Moteurs de recherche
+- Mail
+- Affiliation
+- Display
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les différentes sources de trafic
+
+### Direct
+
+Elle est définie par les visiteurs qui viennent **directement sur le site**, en entrant par exemple manuellement l'URL du site web ou en venant directement depuis les favoris.
+
+**Attention :** les visteurs dont on ne connait pas ou que l'on ne peut déterminer la provenance, sont généralement comptabilisés dans cette catégorie.
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les différentes sources de trafic
+
+### Liens sur sites référents
+
+Elle est utilisée pour décrire les visiteurs du site qui proviennent de **liens depuis d'autres sites** autres que les sources de trafic comme les moteurs de recherche ou les réseaux sociaux.
+
+Ces liens sont la base de la construction du Web. Ils proviennent souvent de partenariats ou plus simplement de citations dans la cadre d'articles (blog, journaux, ...) ou de références.
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les différentes sources de trafic
+
+### Réseaux sociaux
+
+Ce trafic est comptabilisé à partir des différents liens disponibles sur les réseaux sociaux comme Facebook, Twitter, Linkedin, ...
+
+Il est généralement issu d'une stratégie de communication qui permet une présence forte sur les réseaux. La multpilication des interactions, Like, contenus postés, ... permet d'augmenter la trafic provenant de cette source.
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les différentes sources de trafic
+
+### Moteurs de recherche
+
+Cette source regroupe l'ensemble des liens disponibles vers le site sur les différents moteurs de recherche.
+
+Ce trafic peut provenir aussi bien d'un référencement naturel, optimiser son site pour mettre en avant le ou les contenus recherchés par les internautes, ou du référencement payant, par de l'achat de résultats sur un ou plusieurs mots clé.
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les différentes sources de trafic
+
+### Mail
+
+Le trafic provenant d'un lien se trouvant dans un mail envoyé à un internaute est comptabilisé sur cette source.
+
+Il peut s'agir :
+
+- marketing relationnel : email envoyé durant toute la relation avec le client
+- campagnes marketing : diffusion d'une offre sur un volume important de contact
+- marketing transactionnel : email envoyé dans le but de finaliser la conversion
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les différentes sources de trafic
+
+### Affiliation
+
+L'affiliation sur Internet est une technique e-marketing permettant à un site web annonceur de promouvoir ses produits ou ses services en proposant une rémunération à d'autres sites web éditeurs (affiliés) en échange d'un apport de ventes, d'inscriptions ou de trafic.
+
+[Wikipedia](https://fr.wikipedia.org/wiki/Affiliation_(internet))
+
+---
+
+# La mesure d'audience dans une campagne de communication digitale
+
+## Les différentes sources de trafic
+
+### Display
+
+Trafic provenant exclusivement de campagnes marketing qui concernent la diffusion de publicité "visuelle" sous différents formats : bannières de publicité, habillage de site, interstitiel, popup, ...
+
+Ces campagnes sont généralement facturées au CPM ou CPC.
 
 
 
