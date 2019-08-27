@@ -1,0 +1,16 @@
+version: '2'
+services:
+  matomo:
+    image: matomo
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+      
+  db:
+    image: mariadb
+    environment:
+      MYSQL_USER: "matomo"
+      MYSQL_PASSWORD: "matomo"
+      MYSQL_DATABASE: "matomo"
+      MYSQL_ROOT_PASSWORD: "matomo"
